@@ -1,0 +1,10 @@
+div {
+    display: inline;
+    background-color: #ccc;
+    height: 100px;
+    /* width: 100px; */
+}
+
+span {
+    display: block;
+}
