@@ -1,0 +1,53 @@
+/* target all p elements */
+p {
+    /* background-color: red; */
+}
+
+/* target all elements with class = "special" */
+.special {
+    /* background-color: red; */
+}
+
+/* target only elements with id = "lorem" */
+#lorem {
+    /* background-color: red; */
+}
+
+/* target all elements in the page */
+* {
+    /* border: 1px dashed #222; */
+}
+
+/* target only p elemnts with class = "special" */
+p.special {
+    /* background-color: red; */
+}
+
+/* target only p elements that is placed immediately after an element with class = ".special" */
+.special + p {
+    /* background-color: red; */
+}
+
+/* target all p elements where the parent has class = "parent" */
+.parent > p {
+    /* background-color: red; */
+}
+
+/* target only elements with class = "parent" and "special" */
+.parent.content {
+    /* background-color: red; */
+}
+
+/* grouping multiple selector */
+h3, p {
+    /* background-color: red; */
+}
+
+/* target element with specific attribute */
+a[href="https://google.com"] {
+    /* background-color: red; */
+}
+
+a[href*="google"] {
+    /* background-color: red; */
+}
