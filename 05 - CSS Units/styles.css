@@ -1,0 +1,16 @@
+:root {
+    font-size: 20vh;
+} 
+
+.wrapper {
+    background-color: #ccc;
+}
+
+p {
+    font-size: 1rem;
+}
+
+button {
+    font-size: 32px;
+    padding: 1em;
+}
