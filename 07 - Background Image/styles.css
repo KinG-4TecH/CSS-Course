@@ -1,0 +1,12 @@
+.container {
+    background-color: red;
+    height: 1500px;
+    /* background-image: url("./img.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-position: 10% 10%; */
+    /* background-size: cover; */
+    background-image: linear-gradient(90deg, black 10%, white 20%, green 40%);
+    /* background-image: radial-gradient(black, white, green); */
+    /* background-image: conic-gradient(black, white, green); */
+}
