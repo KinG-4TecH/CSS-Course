@@ -1,0 +1,34 @@
+p:hover {
+    background-color: red;
+}
+
+input:focus {
+    background-color: red;
+}
+
+button:active {
+    background-color: red;
+}
+
+a:visited {
+    background-color: red;
+}
+a:link {
+    background-color: blue;
+}
+
+input[type="checkbox"]:checked + ul {
+    background-color: red;
+}
+
+li:nth-of-type() {
+    font-size: 2em;
+}
+
+li:first-of-type {
+    font-size: 2em;
+}
+
+li:last-of-type {
+    font-size: 2em;
+}
