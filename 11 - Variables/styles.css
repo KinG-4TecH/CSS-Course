@@ -1,0 +1,17 @@
+:root {
+    --white-color: rgb(255, 255, 255);
+    --green-color: rgb(0, 53, 11);
+}
+
+body {
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+input {
+    background-color: var(--white-color);
+    border: none;
+    padding: 1em;
+    color: var(--green-color);
+    border-radius: .125em;
+}
