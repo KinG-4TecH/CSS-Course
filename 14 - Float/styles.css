@@ -1,0 +1,26 @@
+.container {
+    padding: 1em;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.container > * {
+    width: 200px;
+    height: 200px;
+    margin: 0 1em;
+}
+
+.one {
+    background-color:red;
+    float: right;
+}
+
+.two {
+    background-color: green;
+    float: right;
+}
+
+.three {
+    background-color: blue;
+    float: left;
+}
