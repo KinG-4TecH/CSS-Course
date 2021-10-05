@@ -1,0 +1,41 @@
+.container {
+    padding: 1em;
+    background-color: #ccc;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.one {
+    background-color:red;
+    /* min-width: 100px; */
+    min-height: 100px;
+
+    align-self: flex-start;
+    justify-self: flex-start;
+
+    flex: 4;
+    flex-shrink: 3;
+
+    flex-basis: 100%;
+}
+
+.two {
+    background-color: green;
+    min-width: 150px;
+    min-height: 150px;
+
+
+    align-self: flex-end;
+    flex: 5;
+    flex-shrink: 1;
+}
+
+.three {
+    background-color: blue;
+    min-width: 200px;
+    min-height: 200px;
+}
