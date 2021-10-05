@@ -1,0 +1,24 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50% auto;
+
+    transform: rotate(1turn);
+    transition-duration: 1s;
+    transition-property: transform;
+    transition-delay: .5s;
+    transition-timing-function: cubic-bezier(0,1.8,.55,-0.79);
+
+    /* transform: translate(50px,-50px); */
+    /* transform: translateX(50px); */
+    /* transform: translateY(-50px); */
+
+    /* transform: scale(1); */
+    
+    /* transform: skew(30deg); */
+    /* transform: skewX(30deg); */
+    /* transform: skewY(-30deg); */
+
+    transform-origin: center left;
+}
